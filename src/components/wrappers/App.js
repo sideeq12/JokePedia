@@ -1,7 +1,19 @@
 import React, {Component} from 'react';
 
-function App(){
-    return(<h1>hello world!</h1>)
+class App extends Component{
+    constructor(){
+        super();
+        this.state = {
+            KevinJokes = {},
+            secongJokes = {}
+        }
+    }
+    render(){
+        return(
+            <div>
+                hello
+            </div>
+        )
+    }
 }
-
 export default App;
