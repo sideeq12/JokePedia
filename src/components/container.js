@@ -1,13 +1,16 @@
 import * as React from "react";
-import LowerBox from "./lowerContainer"
+import JokeBox from "./jokeBox";
+import JokeContent from "./JokeContent"
 
 function Container(){
     return(
         <div className="container">
             <div className="jumbotron">
               <h3>JokePedia</h3> 
+              <JokeBox />
             </div>
-            <LowerBox />
+            <JokeContent/>
+            
         </div>
     )
 }
