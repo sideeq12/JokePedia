@@ -3,10 +3,10 @@ import Heading from "./Heading";
 import JokeContent from "./JokeContent";
 import RefreshButton from "./RefreshButton"
 
-function JokeBox(){
+function JokeBox(props){
     return(
-        <div className="JokeBox">
-            <Heading > Joke Title</Heading>
+        <div className={props.class}>
+            <Heading >KANYE JOKES! </Heading>
             <JokeContent />
             <RefreshButton />
         </div>

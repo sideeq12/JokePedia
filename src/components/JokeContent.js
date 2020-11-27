@@ -21,8 +21,12 @@ class JokeContent extends Component{
       }
   }
   render(){
+      let Kanye = this.state.KanyeWest[0].message;
+      let Second = this.state.SecondWest[0].message
       return(
-          <h2>{this.state.KanyeWest[0].message}</h2>
+          <div>
+          <p className="JokeContent">{Kanye}</p>
+          </div>
       )
   }
 }

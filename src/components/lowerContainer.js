@@ -4,8 +4,8 @@ import JokeBox from "./jokeBox"
 function LowerBox(){
     return(
         <div className="lowerBox">
-            <JokeBox />
-            <JokeBox />
+            <JokeBox class="JokeBox"/>
+            <JokeBox class="JokeBox1" />
         </div>
     )
 }

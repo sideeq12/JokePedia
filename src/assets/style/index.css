@@ -6,15 +6,48 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 5px black;
+    border: thin;
+    background-color: #707070;
+    border-radius: 20px;
+    padding: 20px;
 }
-.JokeBox{
+.JokeBox1, .JokeBox{
     width: 40%;
-    height: 500px;
+    height: fit-content;
+    padding: 15px;
     margin: 10px;
-    background-color: #ea86b6;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+}
+.JokeBox{
+    background-color:#000;
+    color: white;
+}
+.JokeBox1{
+    background-color: white;
+    color: #000;
+}
+.JOkeContent{
+    font-size : 20px
+}
+
+@media  (max-width : 900px){
+    .JOkeContent{
+        font-size : 1px
+    }
+    .lowerBox{
+        flex-direction: column;
+    }
+    .JokeBox{
+        width: 80%;
+    }
+    .JokeBox1{
+        width: 80%;
+    }
 }
