@@ -25,7 +25,8 @@ class JokeContent extends Component{
       let Second = this.state.SecondWest[0].message
       return(
           <div>
-          <p className="JokeContent">{Kanye}</p>
+          <p className="JokeContent second">{Kanye}</p>
+          <p className="JokeContent kanye">{Kanye}</p>
           </div>
       )
   }
