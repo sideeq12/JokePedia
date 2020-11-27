@@ -1,5 +1,5 @@
 import * as React from "react";
-import LowerBox from "../lowerContainer"
+import LowerBox from "./lowerContainer"
 
 function Container(){
     return(
