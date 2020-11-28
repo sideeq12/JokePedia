@@ -9,7 +9,7 @@ function Container(){
               <h3>JokePedia</h3> 
               <JokeBox />
             </div>
-            <JokeContent/>
+            <JokeContent />
             
         </div>
     )
