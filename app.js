@@ -4,8 +4,13 @@ const BodyParser = require("body-parser")
 const https = require("https")
 
 const app = express();
-app.set("views engine", "ejs");
+app.set("view engine", "ejs");
 app.use(BodyParser.urlencoded({extended: true}));
+app.use(express.static("body"))
+
+app.get("/", (req, res)=>{
+    res.render("index")
+})
 
 
 
