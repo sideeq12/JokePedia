@@ -13,9 +13,9 @@
     </div>
     <div class="container body">
         <div class="jokes">
-            <h3>JOKE TITLE</h3>
-            <p>Cars jokes content</p>
-            <form>
+            <h6>Category : <%= Category %> </h6>
+            <p><%= content %></p>
+            <form action="/" method="POST">
                 <button type="submit" class="btn btn-primary">Refresh</button>
             </form>
         </div>
@@ -23,6 +23,9 @@
             <img src="/jokepedia.png"  alt="JokePedia image">
         </div>
     </div>
-    
+    <div class="footer">
+        Copywright @2020 StarClick 
+        <span><a href="https://twitter.com/SideeqBn">Developer</a></span>
+    </div>
 </body>
 </html>
