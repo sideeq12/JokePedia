@@ -19,7 +19,12 @@
 .jokes, .image{
  width: 40%;
  height: 300px;
- border: 1px solid black;
+}
+.jokes{
+    border: thin;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    background-color: #a6a9b6;
 }
 .jokes{
     display: flex;
@@ -48,4 +53,10 @@
 .footer a{
     color: white;
     text-transform: none;
+}
+
+@media (max-width : 720px){
+  .image{
+      height: 200px;
+  }
 }
