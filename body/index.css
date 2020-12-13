@@ -9,6 +9,10 @@
     justify-content: center;
     align-items: center;
 }
+.jumbotron img{
+    height: 20px;
+    width: 20px;
+}
 .body{
     display: flex;
     flex-direction: row;
